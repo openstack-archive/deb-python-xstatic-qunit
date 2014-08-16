@@ -1,0 +1,5 @@
+python-xstatic-qunit (1.14.0.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #758280)
+
+ -- Thomas Goirand <zigo@debian.org>  Sat, 16 Aug 2014 16:53:48 +0800

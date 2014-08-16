@@ -1,0 +1,20 @@
+Description: Debianize the package
+ Make the package use the js file shipped by libjs-qunit.
+Author: Thomas Goirand <zigo@debian.org>
+Forwarded: not-needed
+Last-Update: 2014-08-16
+
+--- python-xstatic-qunit-1.14.0.2.orig/xstatic/pkg/qunit/__init__.py
++++ python-xstatic-qunit-1.14.0.2/xstatic/pkg/qunit/__init__.py
+@@ -34,9 +34,9 @@ HOMEPAGE = 'http://qunitjs.com'
+ LICENSE = '(same as %s)' % DISPLAY_NAME
+ 
+ from os.path import join, dirname
+-BASE_DIR = join(dirname(__file__), 'data')
++#BASE_DIR = join(dirname(__file__), 'data')
+ # linux package maintainers just can point to their file locations like this:
+-#BASE_DIR = '/usr/share/javascript/qunit'
++BASE_DIR = '/usr/share/javascript/qunit'
+ 
+ LOCATIONS = {
+     # CDN locations (if no public CDN exists, use an empty dict)
