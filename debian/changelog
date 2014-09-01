@@ -1,3 +1,9 @@
+python-xstatic-qunit (1.14.0.2-2) unstable; urgency=medium
+
+  * Fixed debian/copyright to add the jQuery foundation.
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 01 Sep 2014 17:00:01 +0000
+
 python-xstatic-qunit (1.14.0.2-1) unstable; urgency=medium
 
   * Initial release. (Closes: #758280)
